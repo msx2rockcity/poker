@@ -130,7 +130,7 @@ static void shaffle( void )
 int main( void )
 {
 	char *yaku[] = { "ノーペア","ワンペア","ツーペア","スリーカード","ストレート","フラッシュ",
-					"フルハウス","フォーカード","ストレートフラッシュ","ロイヤルストレートフラッシュ" };
+			"フルハウス","フォーカード","ストレートフラッシュ","ロイヤルストレートフラッシュ" };
 	int  kd[5], cpu_kd[5], yk, cpu_yk, i, win = 0, lose = 0, draw = 0, kekka_yaku[10];
 	char ny[6];
 	time_t tm;
